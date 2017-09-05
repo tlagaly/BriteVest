@@ -109,7 +109,21 @@
 /* LOGIN END */
 
 /* LEFT PANEL */
-
+#logo img {
+	width: 32px;
+}
+#logo-group span:nth-child(2) img {
+	width: 80px;
+	margin-top: 8px;
+}
+#logo {
+	width: auto;
+}
+nav ul li a {
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
 .hidden-menu #main {
     margin-left: 0px;
 }
@@ -131,7 +145,35 @@
  #logo {
  	margin: 0;
  }
-
+ .pinned-nav-box .header {
+ 	color: #fff;
+ 	height: 40px;
+ 	line-height: 40px;
+ 	padding-left: 12px;
+ 	font-size: 1.5rem;
+ 	background-color: #5A6271;
+ }
+nav .pinned-nav-box {
+	width: 100%;
+	position: absolute;
+	bottom: 40px;
+	background-color: #2B2C2E;
+}
+nav ul.pinned-nav {
+	position: absolute;
+	bottom: 0;
+}
+nav ul.pinned-nav li {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+nav ul.pinned-nav li:hover {
+	background-color: #3890CE;
+}
+nav>ul.pinned-nav>li>a>i {
+	margin-right: 0;
+}
 /* LEFT PANEL END */
 
 /* HEADER */
