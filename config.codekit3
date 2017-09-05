@@ -163,12 +163,6 @@
 		"oAP": "\/forgotpassword.html",
 		"oF": 0
 		},
-	"\/forgotpassword_original.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/forgotpassword_original.html",
-		"oF": 0
-		},
 	"\/img\/ajax-loader.gif": {
 		"ft": 4194304,
 		"iS": 8238,
@@ -1306,12 +1300,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/login.html",
-		"oF": 0
-		},
-	"\/register.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/register.html",
 		"oF": 0
 		},
 	"\/scss\/style.scss": {
