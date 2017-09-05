@@ -1,0 +1,180 @@
+/*
+ * It is advised not to edit the smartadmin_production.css
+ * as this will override any changes you make in the 
+ * later versions of this theme. 
+ * 
+ * We advise that you use use this CSS to override 
+ * SmartAdmin styles. 
+ * 
+ * Rename the stylesheet to whatever your liking so it will stay
+ * unique to you with each update of SmartAdmin.
+ */
+
+/*
+ * INDEX
+ * 
+ * - HTML
+ * - BODY
+ * - UNIVERSAL
+ * - LOGIN
+ * - LEFT PANEL
+ * - HEADER
+ */
+
+/* UNIVERSAL */
+.vcenter {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* UNIVERSAL END */
+
+/* LOGIN */
+
+.login {
+	height: 100vh;
+	background-color: #414753;
+}
+.login .container {
+	background: none;
+}
+.login .left, .login .right {
+	width: 50%;
+	height: 100%
+}
+.login .right {
+	background-color: #fff;
+}
+.login-left {
+	width: 80%;
+	text-align: center;
+}
+.login-left img {
+	max-width: 240px;
+	margin-bottom: 40px;
+}
+.login-left h1 {
+	font-size: 3rem;
+	font-weight: 700;
+}
+.login-form {
+	width: 80%;
+	max-width: 600px;
+}
+.login-form .btn-primary {
+	padding: 12px 36px;
+	font-size: 1.75rem;
+	display: inherit;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+}
+.login-form .note {
+	text-align: center;
+}
+.login-form .label {
+	font-size: 1.25rem;
+	font-weight: 600;
+	color: #3890CE;
+}
+.login .smart-form .input input, .login .smart-form .select select, .login .smart-form .textarea textarea {
+	border: none;
+	border-bottom: 1px solid #D8D8D8;
+	font-size: 1.75rem;
+	font-weight: 300;
+	line-height: 1.75rem;
+	height: 40px;
+}
+.login .smart-form .icon-append {
+	border: none;
+}
+.login .smart-form .checkbox span {
+	color: #3890CE; 
+	font-weight: 300;
+}
+.login .smart-form .checkbox i {
+	border-color: #979797;
+	border-radius: 4px;
+	background-color: #F3F3F3;
+}
+.login .smart-form .checkbox input:checked+i {
+	border-color: #3890CE;
+	background-color: #3890CE;
+}
+.login .smart-form .checkbox input+i:after {
+	color: #fff;
+	font-size: 1.25rem;
+}
+/* LOGIN END */
+
+/* LEFT PANEL */
+
+.hidden-menu #main {
+    margin-left: 0px;
+}
+
+.hidden-menu #left-panel {
+	left: -220px;
+}
+
+ #left-panel {
+ 	padding-top: 0;
+ 	background: #414753;
+ }
+
+ #logo-group {
+ 	height: 49px;
+ 	padding: 8px;
+ }
+
+ #logo {
+ 	margin: 0;
+ }
+
+/* LEFT PANEL END */
+
+/* HEADER */
+
+#header {
+	padding: 0;
+	background-color: #fff;
+	background-image: none;
+}
+
+#header>:first-child {
+	width: auto;
+}
+
+#header-search {
+	width: 75%;
+}
+
+.header-search>input[type=text] {
+	margin: 0;
+	height: 49px;
+	width: 320px;
+	padding: 0 36px;
+	border-width: 0;
+}
+
+.header-search>button {
+	left: 0;
+}
+
+#hide-menu a {
+	height: 49px;
+	width: 49px;
+	margin: 0 10px 0 0;
+	border-right-width: 1px;
+	border-bottom-width: 0;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-radius: 0;
+}
+
+#hide-menu a:active {
+	border-radius: 0;
+}
+
+/* HEADER END */
